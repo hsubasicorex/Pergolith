@@ -130,5 +130,5 @@ quoteForm?.addEventListener('submit', event => {
     status.textContent = 'Your email application is opening with the project details prepared. Review the message and send it to complete your inquiry.';
     status.classList.add('is-visible');
   }
-  window.location.href = `mailto:hello@pergolith.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:sales@pergolith.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
